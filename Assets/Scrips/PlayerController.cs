@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float playerSpeed;
     private float horizontalX;
     private float horizontalZ;
+    public static event Action OnReachGoal;
     private void Awake()
     {
         _componentRigidbody = GetComponent<Rigidbody>();
@@ -23,5 +25,12 @@ public class PlayerController : MonoBehaviour
     public void OnMovementZ(InputAction.CallbackContext context)
     {
         horizontalZ = context.ReadValue<float>();
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Goal")
+        {
+            OnReachGoal?.Invoke();
+        }
     }
 }
