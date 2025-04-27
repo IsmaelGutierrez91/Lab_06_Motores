@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 11400000, guid: a0d9bcefa98115f499845cef640463d8, type: 2}
-  audioSettings: {fileID: 11400000, guid: 1a95af4ce0fa96f4ab5223647f4f96da, type: 2}
+  audioSettings: {fileID: 11400000, guid: 567abe4272c4baa40b4fb1853e9e7717, type: 2}
 --- !u!65 &26323135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 11400000, guid: 590db7cfd01e7954781b9b0128258a63, type: 2}
-  audioSettings: {fileID: 11400000, guid: 1a95af4ce0fa96f4ab5223647f4f96da, type: 2}
+  audioSettings: {fileID: 11400000, guid: 567abe4272c4baa40b4fb1853e9e7717, type: 2}
 --- !u!65 &83469283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2732,7 +2732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 11400000, guid: bd0848a82858e234aa98325a2af39da7, type: 2}
-  audioSettings: {fileID: 11400000, guid: 1a95af4ce0fa96f4ab5223647f4f96da, type: 2}
+  audioSettings: {fileID: 11400000, guid: 567abe4272c4baa40b4fb1853e9e7717, type: 2}
 --- !u!65 &618796878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3705,7 +3705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 11400000, guid: 9788b011bb823a74ca80edc7125045f2, type: 2}
-  audioSettings: {fileID: 11400000, guid: 1a95af4ce0fa96f4ab5223647f4f96da, type: 2}
+  audioSettings: {fileID: 11400000, guid: 567abe4272c4baa40b4fb1853e9e7717, type: 2}
 --- !u!65 &910460668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6226,7 +6226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 11400000, guid: 6d129571d1b2dd847be6cb00d77596f3, type: 2}
-  audioSettings: {fileID: 11400000, guid: 1a95af4ce0fa96f4ab5223647f4f96da, type: 2}
+  audioSettings: {fileID: 11400000, guid: 567abe4272c4baa40b4fb1853e9e7717, type: 2}
 --- !u!65 &1500505206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9164,7 +9164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioData: {fileID: 11400000, guid: 7c424bccb6e0f1a4eb1351ef77781423, type: 2}
-  audioSettings: {fileID: 11400000, guid: 1a95af4ce0fa96f4ab5223647f4f96da, type: 2}
+  audioSettings: {fileID: 11400000, guid: 567abe4272c4baa40b4fb1853e9e7717, type: 2}
 --- !u!65 &2085488701
 BoxCollider:
   m_ObjectHideFlags: 0
