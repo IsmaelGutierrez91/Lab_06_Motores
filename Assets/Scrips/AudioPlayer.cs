@@ -5,6 +5,15 @@ public class AudioPlayer : MonoBehaviour
 {
     [SerializeField] private ChannelPlayer musicPlayer;
     [SerializeField] private ChannelPlayer sfxPlayer;
+    public static AudioPlayer Instance { get; private set; }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        Instance = this;
+    }
     private void OnEnable()
     {
         InteractuableObject.OnCollisionMusic += PlayPlayer;

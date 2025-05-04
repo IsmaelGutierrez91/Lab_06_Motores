@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private float horizontalX;
     private float horizontalZ;
     public static event Action OnReachGoal;
+    public static event Action OnNpcInteraction;
     private void Awake()
     {
         _componentRigidbody = GetComponent<Rigidbody>();
@@ -25,6 +26,12 @@ public class PlayerController : MonoBehaviour
     public void OnMovementZ(InputAction.CallbackContext context)
     {
         horizontalZ = context.ReadValue<float>();
+    }
+    public void OnInteraction(InputAction.CallbackContext context)
+    {
+        if (!context.performed)
+            return;
+        OnNpcInteraction?.Invoke();
     }
     private void OnTriggerEnter(Collider other)
     {
